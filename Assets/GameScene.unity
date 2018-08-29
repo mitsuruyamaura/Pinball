@@ -954,6 +954,7 @@ GameObject:
   - component: {fileID: 910881892}
   - component: {fileID: 910881896}
   - component: {fileID: 910881897}
+  - component: {fileID: 910881898}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1051,6 +1052,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09e9cab53d0a8204195ba1fde37be66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &910881898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 910881891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f3409cf219f4945bdd2ef06d43cc74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &965265556
@@ -1240,7 +1252,7 @@ GameObject:
   - component: {fileID: 1192201013}
   - component: {fileID: 1192201012}
   m_Layer: 5
-  m_Name: Scoreboad
+  m_Name: ScoreBoadText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1285,7 +1297,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1296,7 +1308,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 
 --- !u!222 &1192201013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1841,15 +1853,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4947097085834242, guid: febe97fb29ab40843b1790eecebf4934, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.31
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 4947097085834242, guid: febe97fb29ab40843b1790eecebf4934, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.26
+      value: -0.44
       objectReference: {fileID: 0}
     - target: {fileID: 4947097085834242, guid: febe97fb29ab40843b1790eecebf4934, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.79
+      value: -3.19
       objectReference: {fileID: 0}
     - target: {fileID: 4947097085834242, guid: febe97fb29ab40843b1790eecebf4934, type: 2}
       propertyPath: m_LocalRotation.x
